@@ -1,0 +1,187 @@
+/* Google Font */
+@import url(https://fonts.googleapis.com/css?family=Roboto|Poppins);
+
+
+/* Universal Selector */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 20px;
+}
+
+/* Heading Style */
+.header-info {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(81, 164, 192);
+}
+
+header {
+    background-color: rgb(17, 16, 16);
+    padding: 5px;
+    text-align: center;
+    word-spacing: 3px;
+   
+
+}
+header i{
+    margin-right: 5px
+}
+header span{
+    margin-right: 30px;
+}
+header a{
+    text-decoration: none;
+}
+
+.heading{
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+}
+/* Navigation Style */
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    color: wheat;
+   
+}
+nav li a{
+    
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+   
+   
+}
+nav li a:hover{
+    color: white;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: black;
+}
+nav{
+    text-align: right;
+    background-color:cadetblue;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 9px cadetblue;
+    
+}
+
+/* Container */
+#container{
+    width: 800px;
+    border: 2px solid white;
+    box-shadow: 3px 5px 9px wheat;
+    margin: 20px auto
+}
+#angular {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+i {
+    color: red;
+}
+
+/* Table Style */
+table,
+tr,
+th,
+td {
+    border: 2px solid rgb(185, 86, 50);
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 8px;
+}
+
+#techStack h2{
+    margin-bottom: 10px;
+}
+
+#tech-table {
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+}
+
+#educationTable {
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+}
+
+.listSummary {
+    font-family: "Poppins", sans-serif;
+}
+
+.listRoleResponsibilities {
+    font-family: "Poppins", sans-serif;
+}
+
+#project h2 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+
+.listSummary li {
+    padding: 7px;
+    list-style-type: none;
+    
+
+}
+
+.listSummary li::marker {
+
+    content: "✍️";
+
+}
+
+.roles {
+    list-style-type: lower-alpha;
+
+}
+
+.roles li {
+    padding-top: 1rem;
+}
+
+#projDesc::selection {
+    background-color: rgb(172, 172, 240);
+}
+#education h2{
+    margin-bottom: 20px;
+}
+
+/* Footer Style */
+
+footer a i{
+    margin-right: 25px ;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
