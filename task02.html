@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tas 02</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        form{
+            width: 380px;
+            box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+25px 0px 20px -20px rgba(0,0,0,0.45),
+0px 25px 20px -20px rgba(0,0,0,0.45),
+-25px 0px 20px -20px rgba(0,0,0,0.45);
+            margin: 50px auto;
+            height: 500px;
+           
+        }
+        td{
+            display: block;
+            margin: 10px;
+        }
+        input[type="email"]{
+            padding: 7px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: rgb(230, 227, 227);
+            border: none;
+        }
+        input[type="text"]{
+            padding: 13px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: rgb(230, 227, 227);
+            border: none;
+        }
+        #star{
+            color: red;
+        }
+        button{
+            margin-left: 280px;
+            margin-top: 40px;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        textarea{
+            background-color: rgb(52, 156, 190);
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">Subscriber</label></td>
+                    <td><textarea name="" id="" cols="40" rows="10"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Email <span id="star">*</span></label></td>
+                    <td><input type="email"  name="" id=""></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Unsubscribe Reason </label></td>
+                    <td><input type="text" placeholder="Unsubscribe Reason" name="" id=""></td>
+                </tr>
+            </tbody>
+            
+        </table>
+        <button>Unsubscribe</button>
+    </form>    
+</body>
+</html>
